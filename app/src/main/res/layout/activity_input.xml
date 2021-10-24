@@ -21,6 +21,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/list_view"
-        android:layout_below="@id/text"/>
+        android:layout_below="@id/text"
+        android:layout_above="@id/calculate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Calculate"
+        android:id="@+id/calculate"
+        android:background="@drawable/bt_uifb"/>
 
 </RelativeLayout>
