@@ -6,7 +6,7 @@ public class Minimze_flow {
     {
         int N = graph.length;
         int[][] ans = new int [N][N];
-        int[] amount =new int[N];
+        int[] amount = new int[N];
 
         for (int p = 0; p < N; p++)
             for (int i = 0; i < N; i++)

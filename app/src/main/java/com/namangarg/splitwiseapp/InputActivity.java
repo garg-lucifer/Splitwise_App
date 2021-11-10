@@ -12,7 +12,6 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 
 import com.namangarg.splitwiseapp.Utils.Minimze_flow;
 
@@ -32,6 +31,7 @@ public class InputActivity extends AppCompatActivity implements Adapter.ClickEve
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input);
         recyclerView = findViewById(R.id.list_view);
+        calculate = findViewById(R.id.calculate);
         calculate = findViewById(R.id.calculate);
 
         Intent intent = getIntent();
