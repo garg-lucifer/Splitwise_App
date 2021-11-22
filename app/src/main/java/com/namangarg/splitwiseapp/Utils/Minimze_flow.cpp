@@ -1,8 +1,4 @@
-//
-// Created by User on 11/10/2021.
-//
-
-#include "Minimze_flow.h"
+include "Minimze_flow.h"
 #include<iostream>
 using namespace std;
 
